@@ -10,6 +10,8 @@ a {
 @import "./global/Global.css";
 /* Home */
 @import "./home/Home.css";
+/* Font awesome */
+/* @import "../node_modules/font-awesome/css/font-awesome.min.css"; */
 /* Subjects */
 @import "./subjects//Subject.css";
 /* Teachers */
