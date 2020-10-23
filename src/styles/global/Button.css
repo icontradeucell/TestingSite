@@ -1,0 +1,85 @@
+.bordered-button {
+  border-radius: 30px;
+  padding: 1rem 3rem;
+  font-size: 1.1rem;
+  color: #fff;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  word-break: keep-all;
+  -webkit-box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.602);
+  -moz-box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.602);
+  box-shadow: 0px 1px 5px -1px rgba(0, 0, 0, 0.602);
+  transition: all 0.4s;
+}
+
+.bordered-button:hover,
+.bordered-button:focus {
+  /* transform: scale(0.95); */
+  transition: all 0.4s;
+}
+
+.blueBtn {
+  background-color: #8abfe9;
+}
+
+.blueBtn:hover {
+  background-color: #7cadd4;
+}
+
+.greenBtn {
+  background-color: #78b97f;
+}
+
+.greenBtn:hover {
+  background-color: #6ba771;
+}
+
+.darkBlueBtn {
+  background-color: #4d59a1;
+}
+
+.darkBlueBtn:hover {
+  background-color: #424d8b;
+}
+
+.orange {
+  background-color: #fcb245;
+}
+
+.orange:hover {
+  background-color: #e7a33e;
+}
+
+.bordered-button img {
+  width: 30px;
+  margin-left: 0.5rem;
+}
+
+.arrowBack {
+  transform: rotate(-180deg);
+  margin-right: 0.5rem;
+}
+
+.redBrown {
+  background-color: #925255;
+}
+
+.redBrown:hover {
+  background-color: #7c4547;
+}
+
+.uzbBlue {
+  background-color: #54adff;
+}
+
+.uzbGreen {
+  background-color: #50c97d;
+}
+
+.bordered-button .fa-check-circle {
+  margin-left: 1rem;
+}

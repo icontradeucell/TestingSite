@@ -1,0 +1,130 @@
+.user-settings {
+  margin-top: -49px;
+}
+
+.user-settings .regbg {
+  background-image: url("../../assets//userSettings/userSettingsBg.png");
+}
+
+.user-settings .registration {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-settings .avatar-uploader {
+  margin-top: -100px;
+}
+
+.user-settings .ant-upload-picture-card-wrapper {
+  width: unset;
+}
+
+.user-settings .ant-upload.ant-upload-select-picture-card {
+  width: 120px;
+  height: 120px;
+  overflow: hidden;
+  border: 5px solid white;
+  border-radius: 50%;
+  box-shadow: 0px 1px 20px -4px rgba(0, 0, 0, 0.561);
+}
+
+.user-settings .setting1,
+.user-settings .setting2 {
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.user-settings .setting1 {
+  /* margin-top: 2rem; */
+}
+
+.user-settings .setting {
+  margin: 1rem;
+  width: 25%;
+  min-width: 150px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+.user-settings .setting img,
+.balance img {
+  width: 50px;
+}
+
+.user-settings .setting .text {
+  font-size: 0.8rem;
+  color: var(--secondary-color);
+}
+
+.user-settings .setting .title {
+  margin: 0.5rem 0;
+  font-size: 1.1rem;
+}
+
+.user-settings .setting1 .title {
+  font-weight: bold;
+}
+
+.user-settings .about-user {
+  width: 80%;
+  text-align: center;
+  margin: 4rem 0;
+}
+
+.user-settings .about-user h3 {
+  font-weight: 100;
+  color: #925255;
+  margin-bottom: 1rem;
+}
+
+.user-settings .username {
+  margin: 1rem 0;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.user-settings .username h1 {
+  font-weight: 100;
+}
+
+.user-settings .username p {
+  margin: 1rem 0;
+  color: #925255;
+  font-weight: bold;
+}
+
+.user-settings .balance {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 2rem;
+}
+
+.user-settings .balance img,
+.user-settings .balance .bordered-button,
+.user-settings .amount-in-balance {
+  margin: 1rem;
+}
+
+.user-settings .amount-in-balance p {
+  color: #689f7f;
+}
+
+.user-settings .amount-in-balance span {
+  color: #f1a859;
+}
+
+.user-settings .amount-in-balance .money {
+  font-size: 1.5rem;
+  font-weight: bold;
+}

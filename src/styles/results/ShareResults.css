@@ -1,0 +1,57 @@
+.share-result {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.share-result .shareResultsImg {
+  width: 400px;
+  margin: 0 4rem;
+}
+
+.share-result .sharing {
+  margin: 0 4rem;
+}
+
+.share-result .social-media-links {
+  margin: 1.5rem 0;
+}
+
+.share-result .social-media-links img {
+  width: 90px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+
+.share-result .social-media-links img:hover {
+  transform: rotate(360deg);
+  transition: all 0.4s;
+}
+
+.share-result .sharing p {
+  color: #54adff;
+  font-size: 1.3rem;
+  width: 330px;
+}
+
+.share-result .shareable-link {
+  border: 2px solid var(--secondary-color);
+  padding: 0.2rem 1rem;
+  border-radius: 10px;
+  background-color: #fff8e6;
+  color: var(--secondary-color);
+  font-size: 1.1rem;
+  margin-bottom: 1rem;
+}
+
+.share-result .share-btns {
+  margin: -0.5rem;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.share-result .share-btns > div {
+  padding: 0.5rem;
+}

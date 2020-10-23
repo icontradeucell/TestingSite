@@ -1,0 +1,49 @@
+.test-header {
+  width: 100%;
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-bottom: 1rem;
+  border-bottom: 2px solid var(--darkGrey);
+}
+
+.test-header .student-info {
+  margin-bottom: 1rem;
+}
+
+.test-header h3 {
+  font-size: 1.5rem;
+  color: #ff4b4b;
+}
+
+.test-header .stuent-address {
+  font-size: 1rem;
+}
+
+.test-header .about-student {
+  display: flex;
+  margin-bottom: 1rem;
+}
+
+.test-header .about-student .student-image,
+.test-header .topboard-crown {
+  margin-right: 1.5rem;
+}
+
+.test-header .student-position {
+  display: flex;
+  align-items: center;
+}
+
+.test-header .topboard-content {
+  display: flex;
+}
+
+.test-header .topboard-crown {
+  position: relative;
+  top: unset;
+  bottom: unset;
+  right: unset;
+  left: unset;
+}

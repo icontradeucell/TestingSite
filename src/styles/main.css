@@ -1,0 +1,34 @@
+body {
+  padding-top: 7rem;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Global */
+@import "./global/Global.css";
+/* Home */
+@import "./home/Home.css";
+/* Subjects */
+@import "./subjects//Subject.css";
+/* Teachers */
+@import "./teachers/Teachers.css";
+/* Universities */
+@import "./univers/Universities.css";
+/* Contact */
+@import "./contact/Contact.css";
+/* Registration */
+@import "./registration/Registration.css";
+/* TestProcess */
+@import "./testprocess//TestProcess.css";
+/* UserSettings */
+@import "./usersettings/UserSettings.css";
+/* TestResults */
+@import "./results/TestResults.css";
+/* Login */
+@import "./login/Login.css";
+/* Centers */
+@import "./centers/Center.css";
+
+@import "./MediaQuiries.css";

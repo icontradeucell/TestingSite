@@ -1,0 +1,41 @@
+.questions-carusel {
+  width: 100%;
+  margin: 4rem 0;
+}
+
+.questions-carusel .slick-list {
+  padding: 0 !important;
+}
+
+.questions-carusel .slick-dots li button {
+  background-color: rgb(82, 82, 255);
+  color: #fff;
+  width: 25px;
+  height: 25px;
+  border-radius: 10%;
+  font-size: 0.9rem;
+}
+
+.questions-carusel .slick-dots li {
+  margin: 0 0.3rem;
+  margin-bottom: 0.5rem;
+}
+
+.questions-carusel .slick-dots .slick-active button {
+  background-color: rgb(255, 72, 72);
+}
+
+.questions-carusel .slick-dots li button:before {
+  content: "";
+}
+
+.questions-carusel .slick-dots {
+  top: -57px;
+  bottom: unset;
+  width: auto;
+}
+
+.questions-carusel .slick-prev,
+.questions-carusel .slick-next {
+  display: none !important;
+}

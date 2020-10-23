@@ -1,0 +1,65 @@
+.topten-card {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 1rem 3rem;
+  margin-bottom: 2rem;
+  border-radius: 10px;
+  -webkit-box-shadow: 0px 4px 11px 1px rgba(14, 14, 14, 0.137);
+  -moz-box-shadow: 0px 4px 11px 1px rgba(14, 14, 14, 0.137);
+  box-shadow: 0px 4px 11px 1px rgba(14, 14, 14, 0.137);
+  background-color: white;
+  transition: all 0.4s;
+}
+
+.topten-card:hover,
+.topten-card:focus {
+  transform: scale(1.03);
+}
+
+.topten-card .result-container {
+  width: 252px;
+}
+.topten-card .result-container:first-child {
+  margin-right: 1rem;
+}
+
+.topten-card .place {
+  width: 60px;
+  height: 60px;
+  padding: 0.5rem;
+  display: grid;
+  place-items: center;
+  border-radius: 50%;
+}
+
+.topten-st-img {
+  width: 50px;
+  height: 50px;
+  background-color: var(--secondary-color);
+  border-radius: 10px;
+  overflow: hidden;
+  margin: 0 0.5rem;
+}
+
+.topten-st-img img {
+  width: 100%;
+}
+
+.topten-st-info {
+  display: flex;
+  align-items: center;
+}
+
+.topten-card .topten-card-item1,
+.topten-card .topten-card-item2 {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.topten-cards {
+  background-color: #f0f9ff;
+  padding: 2rem 0;
+}

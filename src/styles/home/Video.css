@@ -1,0 +1,131 @@
+.video-react .video-react-big-play-button {
+  height: 70px;
+  width: 70px;
+  border: none;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  background-color: #d34a44;
+  top: 41%;
+  left: 74%;
+}
+
+.video-react .video-react-big-play-button:hover {
+  background-color: #f05a52;
+}
+
+.video-react.video-react-fluid,
+.video-react.video-react-16-9,
+.video-react.video-react-4-3 {
+  padding-top: 40.02% !important;
+  margin: 5rem 0;
+}
+
+.video-react .video-react-poster {
+  background-position: 100% 50%;
+}
+
+.video-react-icon-play-arrow:before,
+.video-react .video-react-bezel .video-react-bezel-icon-play:before,
+.video-react .video-react-play-control:before,
+.video-react .video-react-big-play-button:before {
+  font-size: 3.5rem;
+  background-color: #d34b4400;
+}
+
+.video-react .video-react-control:before,
+.video-react .video-react-big-play-button:before {
+  display: grid;
+  place-items: center;
+}
+
+.video-react {
+  position: relative;
+  overflow: hidden;
+}
+
+.video-wrapper .videoBg {
+  width: 72%;
+  /* min-width: 53 0px; */
+  position: absolute;
+  z-index: 1000;
+  transition: all 0.8s;
+  top: -56%;
+  left: -14%;
+}
+
+.video-wrapper .aboutVideo {
+  width: 40%;
+  position: absolute;
+  color: white;
+  bottom: 10%;
+  left: 7%;
+  z-index: 1000;
+  transition: all 0.8s;
+}
+
+.video-wrapper .aboutVideo h2 {
+  color: white;
+  font-size: 2rem;
+  margin-bottom: 2rem;
+}
+
+.video-wrapper .aboutVideo p {
+  line-height: 1.5;
+  font-size: 1rem;
+  color: white;
+}
+
+.video-wrapper {
+  margin: 3rem 0;
+}
+
+.video-react-playing .videoBg {
+  transition: all 0.8s;
+  transform: translateX(-81%);
+}
+
+.video-react-playing .aboutVideo {
+  transform: translateX(-120%);
+}
+
+@media (max-width: 620px) {
+  .video-react.video-react-fluid,
+  .video-react.video-react-16-9,
+  .video-react.video-react-4-3 {
+    padding-top: 70.02% !important;
+    margin: 5rem 0;
+  }
+
+  .video-wrapper .videoBg {
+    width: 87%;
+    position: absolute;
+    z-index: 1000;
+    transition: all 0.8s;
+    top: -17%;
+    left: -34%;
+  }
+
+  .video-wrapper .aboutVideo h2 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+  }
+
+  .video-wrapper .aboutVideo p {
+    font-size: 0.6rem;
+  }
+  .video-react .video-react-big-play-button {
+    height: 50px;
+    width: 50px;
+
+    top: 41%;
+    left: 74%;
+  }
+
+  .video-react-icon-play-arrow:before,
+  .video-react .video-react-bezel .video-react-bezel-icon-play:before,
+  .video-react .video-react-play-control:before,
+  .video-react .video-react-big-play-button:before {
+    font-size: 2rem;
+  }
+}

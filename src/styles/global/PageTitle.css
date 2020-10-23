@@ -1,0 +1,15 @@
+.page-title {
+  text-align: center;
+  margin: 1rem 0;
+}
+
+.page-title p {
+  color: var(--secondary-color);
+}
+
+.page-title p:first-child {
+  color: #77b97e;
+  font-weight: 600;
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}

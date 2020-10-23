@@ -1,0 +1,82 @@
+.centers-page .teacher-card {
+  width: 80%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 4rem;
+  height: 400px;
+  border-radius: 40px;
+}
+
+.centers-page .teachers-list .container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.centers-page .teacher-card .center-info {
+  width: 75%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.centers-page .round-pic {
+  width: 350px;
+  height: 350px;
+}
+
+.centers-page .teacher-card .center-info p {
+  text-align: start;
+}
+
+.centers-page .teacher-card .center-info h2 {
+  margin-bottom: 1rem;
+}
+
+.centers-page .teachers-list {
+  justify-content: flex-end;
+}
+
+.centers-page .teacher-card .round-pic {
+  position: relative;
+  margin-left: -250px;
+  top: unset;
+}
+
+.centers-page .teacher-card .bordered-button {
+  position: relative;
+  bottom: unset;
+  left: unset;
+  margin-top: 2rem;
+}
+
+/* One center */
+.center .center-img {
+  background-image: url("../../assets/centers/ziyokor.jpg");
+  width: 500px;
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+}
+
+.center header {
+  display: flex;
+  justify-content: space-between;
+}
+
+.center header .brief-about-center {
+  width: 50%;
+}
+
+.center h1 {
+  color: #ffc422;
+  margin-bottom: 0.7rem;
+}
+
+.center header,
+.center .about-center,
+.center .courses-in-center,
+.center .center-entrance-exams {
+  margin-bottom: 2rem;
+}

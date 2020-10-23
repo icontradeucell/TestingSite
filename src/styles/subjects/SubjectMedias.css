@@ -1,0 +1,9 @@
+@media (max-width: 890px) {
+  .lang-option {
+    width: 100%;
+  }
+
+  .start-test-modal {
+    padding: 2rem;
+  }
+}

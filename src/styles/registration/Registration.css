@@ -1,0 +1,205 @@
+.register-page,
+.login-page {
+  margin-top: -49px;
+}
+
+.register-page .regbg,
+.login-page .regbg {
+  height: 80vh;
+  background-image: url("../../assets/register/registerBg.png");
+  background-position: center;
+  background-size: cover;
+}
+
+.register-page .registration,
+.login-page .registration {
+  width: 100%;
+  position: relative;
+  padding: 4rem;
+  margin: 1rem 0;
+}
+
+.register-page .container,
+.login-page .container {
+  margin-top: -362px;
+}
+
+.register-page .welcome-site,
+.login-page .welcome-site {
+  color: white;
+  font-size: 3rem;
+}
+
+.register-page .registration form label input {
+  border: 1px solid var(--secondary-color);
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+}
+
+.register-page .date-wrapper {
+  display: flex;
+}
+
+.register-page label {
+  line-height: 1.8;
+}
+
+.register-page label span {
+  color: var(--secondary-color);
+}
+
+.register-page .date-wrapper input:nth-child(2) {
+  margin: 0 0.5rem;
+}
+
+.register-page .required-sym {
+  color: red;
+}
+
+.register-page .register-warning {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 3rem 0;
+}
+
+.register-warning p {
+  text-align: center;
+  font-size: 0.8rem;
+  margin-top: 0.5rem;
+  margin-bottom: 2rem;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.register-page input::-webkit-outer-spin-button,
+.register-page input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.register-page input[type="number"] {
+  -moz-appearance: textfield;
+}
+
+.shoose-role {
+  width: 40%;
+  min-width: 300px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  align-items: center;
+  margin: 2rem 0;
+}
+
+.role-btns {
+  display: flex;
+  flex-direction: column;
+  align-self: flex-start;
+  text-align: start;
+  /* padding: 1rem; */
+}
+
+.ant-switch-checked {
+  background-color: #4d59a1;
+}
+
+.role-btns span {
+  color: var(--secondary-color);
+}
+
+.role-btns button {
+  margin: 0.5rem;
+}
+
+.register-page .registration h2 {
+  text-align: center;
+}
+
+.register-page .ant-form-item .ant-col-offset-8 {
+  margin: 0;
+}
+
+.register-page .ant-form-item,
+.register-page .ant-select {
+  border-radius: 6px;
+  padding: 0.5rem;
+  flex-direction: column;
+}
+
+.register-page .ant-select {
+  margin-bottom: 24px;
+}
+
+.register-page .registration form label {
+  margin: 0;
+}
+
+.register-page .registration form {
+  width: 50%;
+}
+
+.register-page .ant-picker {
+  width: 100%;
+}
+
+.ant-input,
+.ant-input-password,
+.ant-picker,
+.ant-input-affix-wrapper,
+.ant-btn {
+  border-radius: 6px;
+  padding: 0.5rem;
+}
+
+.ant-btn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.register-page .ant-col-16 {
+  max-width: unset;
+}
+
+.ant-select-single:not(.ant-select-customize-input) .ant-select-selector {
+  border-radius: 6px;
+  /* padding: 1rem; */
+  height: 40px;
+  display: flex;
+  align-items: center;
+}
+
+.register-page .ant-select {
+  width: 100%;
+}
+
+.register-page .ant-btn-primary {
+  color: #fff;
+  background: #4d59a1;
+  border-color: #4d59a1;
+  text-shadow: 0 -1px 0 rgba(0, 0, 0, 0.12);
+  -webkit-box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  box-shadow: 0 2px 0 rgba(0, 0, 0, 0.045);
+  border-radius: 30px;
+  padding: 1.5rem 1.8rem;
+  font-size: 1.1rem;
+}
+
+.register-page .ant-btn-primary:hover,
+.register-page .ant-btn-primary:focus {
+  background-color: #5765b6;
+  border-color: #5765b6;
+}
+
+.register-page .register-btn-wrapper {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.register-page .register-btn-wrapper .ant-form-item-control-input-content {
+  display: flex;
+  justify-content: center;
+}

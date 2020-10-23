@@ -1,0 +1,147 @@
+.univer-carousel-item {
+  position: relative;
+  width: 100%;
+  height: 265px;
+  background-position: center;
+  background-size: cover;
+  -webkit-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+  box-shadow: 0px 3px 10px 0px rgba(0, 0, 0, 0.75);
+}
+
+.universities-page .slick-track,
+.home-page .slick-track,
+.centers-page .slick-track {
+  padding: 4rem 0;
+}
+
+.universities-page .slick-current,
+.home-page .slick-current,
+.centers-page .slick-current,
+.universities-page .slick-center,
+.home-page .slick-center,
+.centers-page .slick-center {
+  transition: all 0.4s;
+  transform: scale(1.3);
+  position: relative;
+  z-index: 1001;
+}
+
+@media (max-width: 1024px) {
+  .univer-carousel-item {
+    height: 500px;
+  }
+  .universities-page .slick-current,
+  .home-page .slick-current,
+  .centers-page .slick-current,
+  .universities-page .slick-center,
+  .home-page .slick-center,
+  .centers-page .slick-center {
+    transform: unset;
+  }
+}
+
+@media (max-width: 560px) {
+  .universities-page .slick-current,
+  .home-page .slick-current,
+  .centers-page .slick-current,
+  .universities-page .slick-center,
+  .home-page .slick-center,
+  .centers-page .slick-center {
+    padding: 0 5rem;
+  }
+}
+
+@media (max-width: 360px) {
+  .universities-page .slick-current,
+  .home-page .slick-current,
+  .centers-page .slick-current,
+  .universities-page .slick-center,
+  .home-page .slick-center,
+  .centers-page .slick-center {
+    padding: 0 2rem;
+  }
+}
+
+.carousel-showcase {
+  width: 70%;
+  opacity: 0;
+  position: absolute;
+  left: 0;
+  bottom: 15px;
+}
+
+.slick-active .carousel-showcase {
+  opacity: 1;
+  transition: all 0.6s;
+}
+
+.active-item-text p {
+  color: #fff;
+  font-size: 0.8rem;
+  letter-spacing: 1px;
+}
+
+.slick-active .active-item-text {
+  padding: 1rem 1.5rem;
+  background-color: rgba(0, 0, 0, 0.808);
+  color: #ffff;
+  margin-bottom: 0.5rem;
+}
+
+.slick-active .batafsil {
+  padding: 0.5rem 1rem;
+  background-color: rgba(255, 255, 255, 0.808);
+  color: #000;
+  border-radius: 30px;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  transition: all 0.5s;
+  margin-left: 2rem;
+  font-size: 0.7rem;
+}
+
+.slick-active .batafsil:hover {
+  background-color: rgba(255, 255, 255, 0.908);
+}
+
+.universities-page .slick-prev:before,
+.universities-page .slick-next:before,
+.home-page .slick-prev:before,
+.home-page .slick-next:before,
+.centers-page .slick-prev:before,
+.centers-page .slick-next:before {
+  font-size: 56px;
+}
+
+.universities-page .slick-next,
+.home-page .slick-next,
+.centers-page .slick-next {
+  right: 29%;
+  z-index: 1001;
+}
+
+.universities-page .slick-prev,
+.home-page .slick-prev,
+.centers-page .slick-prev {
+  left: 26%;
+  z-index: 1001;
+}
+
+@media (max-width: 700px) {
+  .universities-page .slick-next,
+  .home-page .slick-next,
+  .centers-page .slick-next {
+    top: 50%;
+    right: 15%;
+    z-index: 1001;
+  }
+
+  .universities-page .slick-prev,
+  .home-page .slick-prev,
+  .centers-page .slick-prev {
+    left: 2%;
+    z-index: 1001;
+  }
+}

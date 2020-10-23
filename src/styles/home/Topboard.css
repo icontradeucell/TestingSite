@@ -1,0 +1,118 @@
+.topboard {
+  margin-top: 9rem;
+  background-image: url("../../assets/home/trophy.png");
+  background-position: center;
+  background-size: 100%;
+  background-repeat: no-repeat;
+}
+
+.topboard-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 1rem;
+}
+
+.topboard-title i {
+  color: #ffd22d;
+}
+.topboard-title h1,
+h2 {
+  color: #ff4b4c;
+}
+
+.topboard .topboard-desc {
+  text-align: center;
+}
+
+.topboard .topboard-desc p {
+  width: 70%;
+  margin: auto;
+  margin-bottom: 4rem;
+}
+
+.topboard-content {
+  position: relative;
+  background-color: #fff;
+  width: 300px;
+  height: 310px;
+  border-radius: 10px;
+  padding: 1.5rem;
+  margin: 2rem;
+  -webkit-box-shadow: 1px 3px 17px -4px rgba(0, 0, 0, 0.289);
+  -moz-box-shadow: 1px 3px 17px -4px rgba(0, 0, 0, 0.289);
+  box-shadow: 1px 3px 17px -4px rgba(0, 0, 0, 0.289);
+}
+
+.topboard-content-wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.student-info h3 {
+  color: #ff8a8a;
+}
+
+.student-info p {
+  font-weight: bold;
+  font-size: 0.7rem;
+}
+
+.result-container p {
+  font-weight: 600;
+  font-size: 0.6rem;
+}
+
+.urinishlar-koefitsenti {
+  border: 1px solid var(--secondary-color);
+  display: flex;
+}
+
+.koeffitsent {
+  font-weight: bold;
+  color: var(--secondary-color);
+}
+
+.urinishlar-koefitsenti span {
+  display: block;
+  border: 2px solid #fff;
+  height: 10px;
+  background-color: var(--secondary-color);
+}
+
+.student-image {
+  width: 80px;
+  height: 80px;
+  border-radius: 10px;
+  overflow: hidden;
+  background-position: center;
+  background-size: cover;
+}
+
+.student-image img {
+  width: 100%;
+  height: 100%;
+}
+
+.topboard-content .result-container {
+  margin-bottom: 1.7rem;
+}
+
+.result-container div:first-child {
+  display: flex;
+  justify-content: space-between;
+}
+.student-info {
+  margin: 1.5rem 0;
+}
+
+.topboard-content-header {
+  display: flex;
+}
+
+.topboard-content-header .topboard-crown {
+  margin-left: 5rem;
+}

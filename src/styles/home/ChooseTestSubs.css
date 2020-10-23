@@ -1,0 +1,13 @@
+.choose-test-subs {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.choose-test-subs .blueBtn {
+  margin: 2rem 0;
+}
+
+.choose-test-subs p {
+  font-size: 1rem;
+}

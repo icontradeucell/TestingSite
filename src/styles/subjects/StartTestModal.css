@@ -1,0 +1,40 @@
+.start-test-modal {
+  border-radius: 20px;
+  padding: 2rem 4rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 60%;
+  min-width: 310px;
+  margin: auto;
+  background-color: #ffff;
+  text-align: center;
+  line-height: 1.5;
+  position: relative;
+}
+
+.start-test-modal .test-modal-title {
+  color: grey;
+  margin-top: 2rem;
+  font-weight: 600;
+}
+
+.start-test-modal .bordered-button {
+  margin-top: 1rem;
+}
+
+.start-test-modal .subject-box {
+  margin-top: -70px;
+}
+
+.test-modal-wrapper {
+  position: fixed;
+  background-color: rgba(0, 0, 0, 0.493);
+  display: grid;
+  place-items: center;
+  height: 100vh;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 10008;
+}

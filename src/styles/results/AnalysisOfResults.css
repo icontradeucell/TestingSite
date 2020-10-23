@@ -1,0 +1,94 @@
+.analysis-of-results {
+  padding: 2rem 3rem;
+  border-radius: 30px;
+  -webkit-box-shadow: 1px 4px 17px -4px rgba(0, 0, 0, 0.289);
+  -moz-box-shadow: 1px 4px 17px -4px rgba(0, 0, 0, 0.289);
+  box-shadow: 1px 4px 17px -4px rgba(0, 0, 0, 0.289);
+  background-color: #fff;
+  margin: 3rem 0;
+}
+
+.analysis-of-results header {
+  text-align: center;
+}
+
+.analysis-of-results .statDesc {
+  color: #de9d00;
+  font-size: 1.3rem;
+  margin-bottom: 0.7rem;
+}
+
+.analysis-of-results .stats {
+  width: 65%;
+}
+
+.analysis-of-results .tryes {
+  margin-bottom: 2rem;
+}
+
+.analysis-of-results .tryes .koeffitsent {
+  font-size: 1.3rem;
+  color: #0b89ff;
+}
+
+.analysis-of-results .corrects .koeffitsent {
+  font-size: 1.3rem;
+  color: #4cbf7a;
+}
+
+.analysis-of-results .topboard-and-stats {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  margin-top: 4rem;
+}
+
+.analysis-of-results .topboard-and-stats .stat-crown-wrapper {
+  width: 20%;
+  min-width: 208px;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 2rem;
+}
+
+.analysis-of-results .topboard-and-stats .stats {
+  margin: 1rem 2rem;
+}
+
+.analysis-of-results .topboard-and-stats .stat-crown-wrapper .red-title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  text-transform: uppercase;
+}
+
+.analysis-of-results .urinishlar-koefitsenti span {
+  height: 25px;
+  border: 4px solid white;
+}
+
+.analysis-of-results .topboard-crown {
+  width: 130px;
+}
+
+.analysis-of-results .topboard-crown img {
+  width: 100%;
+}
+
+.analysis-of-results .topboard-crown .place {
+  width: 75px;
+  height: 75px;
+  left: 28px;
+  top: 11px;
+}
+
+.analysis-of-results .topboard-crown h1 {
+  font-size: 3rem;
+}
+
+.see-correct-inncorrects {
+  display: flex;
+  justify-content: center;
+}

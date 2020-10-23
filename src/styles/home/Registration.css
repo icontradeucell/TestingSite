@@ -1,0 +1,79 @@
+.registration {
+  width: 90%;
+  margin: 8rem auto;
+  padding: 3rem 4rem;
+  -webkit-box-shadow: 1px 4px 17px -4px rgba(0, 0, 0, 0.289);
+  -moz-box-shadow: 1px 4px 17px -4px rgba(0, 0, 0, 0.289);
+  box-shadow: 1px 4px 17px -4px rgba(0, 0, 0, 0.289);
+  border-radius: 30px;
+  background-color: white;
+}
+
+.home-page .registration {
+  display: flex;
+  justify-content: space-between;
+}
+
+.home-page .registration textarea {
+  width: 100%;
+  resize: vertical;
+  border-radius: 10px;
+  padding-left: 1rem;
+  outline: none;
+  font-size: 1.2rem;
+  margin-bottom: 1rem;
+}
+
+.registration .reg-content {
+  display: flex;
+  justify-content: space-between;
+}
+
+.register-img {
+  width: 40%;
+}
+
+.register-img img {
+  width: 100%;
+}
+
+.registration form {
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+}
+
+.registration form .darkBlueBtn {
+  align-self: flex-start;
+}
+
+.registration form label {
+  margin-bottom: 2rem;
+  width: 100%;
+}
+
+.registration form label input {
+  width: 100%;
+  padding: 0.5rem 0;
+  font-size: 1.2rem;
+  border: none;
+  border-bottom: 1px solid var(--secondary-color);
+  outline: none;
+  color: var(--secondary-color);
+}
+
+.registration #nameInput {
+  margin-top: 1rem;
+}
+
+.registration .reg-instruct {
+  /* margin: 1rem 0; */
+}
+
+.registration input[type="submit"] {
+  display: inline-block;
+}
+
+.registration h2 {
+  color: #4d59a1;
+}

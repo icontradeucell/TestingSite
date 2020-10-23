@@ -1,0 +1,39 @@
+@media (max-width: 960px) {
+  .centers-page .teacher-card {
+    flex-direction: column;
+    height: auto;
+    margin: 12rem auto;
+    width: 100%;
+  }
+
+  .centers-page .teacher-card .round-pic {
+    position: relative;
+    margin-left: unset;
+    margin-top: -200px;
+  }
+
+  .centers-page .teacher-card .center-info {
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+  }
+
+  .centers-page .teacher-card .center-info p {
+    text-align: center;
+  }
+}
+
+@media (max-width: 560px) {
+  .centers-page .teacher-card .round-pic {
+    width: 250px;
+    height: 250px;
+  }
+
+  .centers-page .teacher-card {
+    padding: 2rem;
+  }
+
+  .centers-page .teachers-list .container {
+    width: 95%;
+  }
+}

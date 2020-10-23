@@ -1,0 +1,385 @@
+/* Medias */
+
+@media (min-width: 1286px) {
+  .topboard-content:nth-child(2) {
+    margin-top: -20px;
+  }
+}
+
+@media (max-width: 1286px) {
+  .universities-list {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 1100px) {
+  .registration .register-img {
+    display: none;
+  }
+  .register-page .registration form {
+    width: 100%;
+  }
+
+  .topten-card {
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+  }
+  /* Testprocess */
+  .question-area .testHeader-questions {
+    width: 100%;
+  }
+  /* SHowcase */
+  .home-page .showcase {
+    height: 96vh;
+  }
+
+  .notHome {
+    justify-content: flex-start;
+    background-size: 60%;
+    background-position: 50% 90%;
+  }
+
+  .showcase {
+    height: 95vh;
+  }
+
+  .showcase-content {
+    min-width: 100%;
+    text-align: center;
+    align-items: center;
+  }
+
+  /* Registeration */
+  .registration,
+  .prezident-words {
+    width: 100%;
+  }
+}
+
+@media (max-width: 560px) {
+  .register-page .container,
+  .user-settings .container {
+    width: 96%;
+  }
+
+  /* TestHeader */
+  .test-process .test-header {
+    margin: auto;
+    width: 90%;
+  }
+
+  /* Footer */
+  .footer-items {
+    justify-content: center;
+  }
+
+  /* TestProcess */
+  .test-leaflet-wraper {
+    margin-top: 2rem;
+  }
+
+  /* Showcase Contact */
+  .contact-page .showcase-title-cont img {
+    width: 300px;
+    left: -82px;
+    top: -3px;
+  }
+
+  /* UserSettings */
+  .user-settings .about-user {
+    width: 100%;
+  }
+
+  .showcase {
+    background-size: 150%;
+    background-position: 100% 20%;
+  }
+
+  /* Universities */
+  .univer-list-item {
+    width: 100%;
+    height: 250px;
+  }
+
+  .univer-list-item .showcase-text {
+    width: 90%;
+  }
+
+  .choose-region .custom-select {
+    width: 100%;
+  }
+
+  .univer-list-item .univerName {
+    font-size: 0.8rem;
+  }
+
+  .univerinfo-header .univer-list-item {
+    min-width: 100%;
+  }
+
+  .slick-slider .slick-track,
+  .slick-slider .slick-list {
+    transform: translate3d(-29%, 0, 0);
+  }
+
+  .slick-active .univer-carousel-item {
+    min-width: 222px !important;
+    transform: scale(1.4) !important;
+    transition: 0.5s ease-out !important;
+  }
+
+  .slick-active .active-item-text {
+    width: 134%;
+  }
+
+  .active-item-text p {
+    font-size: 0.6rem;
+  }
+
+  .univer-carousel-item {
+    height: 200px;
+    min-height: 200px;
+  }
+
+  .slick-prev {
+    left: 8px;
+  }
+
+  .slick-next {
+    right: 15px;
+  }
+
+  .slick-prev:before,
+  .slick-next:before {
+    font-size: 31px;
+    transform: translate3d();
+  }
+
+  /* Showcase */
+  .showcase {
+    height: 85vh;
+  }
+  .showcase-content {
+    min-width: 93%;
+    margin: 0 auto;
+    text-align: center;
+    align-items: center;
+  }
+
+  .notHome {
+    justify-content: flex-start;
+    background-size: 100%;
+    background-position: 50% 88%;
+  }
+
+  .contact-page .notHome {
+    justify-content: flex-start;
+    background-size: 100%;
+    background-position: 50% 65%;
+  }
+
+  .showcase-btns {
+    justify-content: center;
+  }
+
+  .showcase-content p {
+    width: 100%;
+  }
+
+  .showcase-title {
+    font-size: 2rem;
+  }
+
+  .student-info h3 {
+    font-size: 0.9rem;
+  }
+
+  .topten-card {
+    padding: 1rem;
+  }
+
+  .topboard .topboard-desc p {
+    width: 100%;
+  }
+
+  .register-page .registration form,
+  .login-page .registration form {
+    min-width: 100%;
+  }
+
+  .prezident-words {
+    justify-content: center;
+  }
+  .prez-saying {
+    width: 100%;
+    text-align: center;
+  }
+
+  /* Teachers */
+  .teachers-list {
+    padding: 5rem 0;
+  }
+
+  .teacher-card {
+    margin: 2.5rem 0;
+  }
+
+  .teacher-img img {
+    width: 287px;
+    top: 31px;
+    left: 26px;
+  }
+
+  .test-of-teacher .white-border {
+    padding: 18px 0;
+  }
+
+  .tests-by-subject-buttons,
+  .about-teacher,
+  .test-of-teacher {
+    min-width: 100%;
+  }
+
+  .about-teacher-cont {
+    padding: 0;
+  }
+  .about-teacher {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  /* Contact */
+  .about-our-team {
+    min-width: 100%;
+    text-align: center;
+  }
+
+  .slick-slider .slick-track,
+  .slick-slider .slick-list {
+    transform: translate3d(-1%, 0, 0);
+  }
+
+  /* Registration */
+  .welcome-site {
+    text-align: center;
+    font-size: 2.5rem;
+  }
+
+  .register-page .registration {
+    padding: 2rem;
+  }
+
+  .register-page .registration h2 {
+    font-size: 1.4rem;
+    text-align: center;
+  }
+
+  .register-page .register-warning {
+    margin-top: 3rem;
+  }
+
+  .shoose-role {
+    width: 100%;
+    min-width: 100%;
+  }
+
+  .register-page .bordered-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 870px) {
+  .topten-card .result-container {
+    margin-bottom: 1rem;
+  }
+
+  .desktop-nav {
+    display: none;
+  }
+
+  .fa-bars {
+    display: block;
+  }
+
+  /* Contact */
+  .contact-form-header {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .contact-form {
+    width: 100%;
+  }
+
+  .contact-form input,
+  .contact-form {
+    width: 100%;
+  }
+}
+
+@media (max-width: 620px) {
+  .test-buttons .greenBtn {
+    order: 3;
+  }
+
+  .our-team-carousel img {
+    width: 200px;
+  }
+
+  .our-team-carousel img {
+    width: 253px;
+    transform: rotate(-37deg);
+    top: 200px;
+    left: 0;
+  }
+  .slick-next {
+    top: 836px;
+  }
+
+  .about-our-team img {
+    display: none;
+  }
+
+  .our-team-carousel
+    .slick-slide
+    > div:nth-child(even)
+    .team-carousel-item:first-child {
+    margin: 1rem;
+  }
+
+  .our-team-carousel
+    .slick-slide
+    > div:nth-child(odd)
+    .team-carousel-item:first-child {
+    margin-bottom: 1rem;
+  }
+
+  .our-team-carousel
+    .slick-slide
+    > div:nth-child(odd)
+    .team-carousel-item:last-child {
+    margin-left: 1rem;
+  }
+
+  .our-team-carousel {
+    width: 300px;
+  }
+
+  .our-team-carousel .slick-list {
+    padding: 4rem 37px !important;
+  }
+
+  .our-team-carousel .slick-active,
+  .our-team-carousel .slick-cloned,
+  .our-team-carousel .slick-slide {
+    flex-direction: column;
+  }
+
+  .email-image {
+    width: 100%;
+  }
+}

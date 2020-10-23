@@ -1,0 +1,75 @@
+@media (max-width: 1024px) {
+  .analysis-of-results {
+    padding: 2rem;
+  }
+
+  .analysis-of-results .topboard-and-stats .stats {
+    width: 90%;
+    margin: 1rem 0;
+  }
+
+  .analysis-of-results .topboard-and-stats .stat-crown-wrapper {
+    margin-right: 1rem 0;
+  }
+
+  .result img {
+    width: 100%;
+  }
+
+  .result {
+    justify-content: center;
+  }
+}
+
+@media (max-width: 610px) {
+  .see-correct-inncorrects .bordered-button {
+    padding: 0.5rem 1rem;
+    font-size: 0.7rem;
+  }
+}
+
+@media (max-width: 560px) {
+  /* Share Results */
+
+  .share-result .share-btns {
+    justify-content: center;
+  }
+
+  .share-result .social-media-links {
+    justify-content: center;
+  }
+
+  .share-result .sharing p {
+    text-align: center;
+    width: auto;
+  }
+
+  .share-result .shareResultsImg {
+    width: 100%;
+  }
+
+  .share-result .sharing {
+    margin: 0;
+  }
+
+  .share-result .social-media-links img {
+    width: 55px;
+  }
+
+  .analysis-of-results .topboard-and-stats .stats {
+    width: 100%;
+  }
+  .analysis-of-results .urinishlar-koefitsenti span {
+    height: 15px;
+    border: 2px solid white;
+  }
+
+  .analysis-of-results .tryes .koeffitsent,
+  .analysis-of-results .corrects .koeffitsent {
+    font-size: 0.8rem;
+  }
+
+  .analysis-of-results .statDesc {
+    font-size: 0.8rem;
+  }
+}

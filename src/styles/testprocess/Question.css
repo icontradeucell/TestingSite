@@ -1,0 +1,64 @@
+.question {
+  width: 100%;
+  border-radius: 30px;
+  border: 10px solid #eff1ff;
+  height: 450px;
+  padding: 2rem 0;
+  display: flex;
+  -webkit-touch-callout: none; /* iOS Safari */
+  -webkit-user-select: none; /* Safari */
+  -khtml-user-select: none; /* Konqueror HTML */
+  -moz-user-select: none; /* Old versions of Firefox */
+  -ms-user-select: none; /* Internet Explorer/Edge */
+  user-select: none;
+}
+
+.question-number {
+  padding: 2rem;
+  height: 100%;
+  border-right: 2px solid var(--secondary-color);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.question-number .qnum-big span {
+  font-size: 5rem;
+  font-weight: bold;
+  color: var(--darkGrey);
+}
+
+.question-number .qnum-big p {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--darkGrey);
+}
+
+.question-number .blog p {
+  color: var(--darkGrey);
+  font-weight: 600;
+}
+
+.question-number .blog .blok-name {
+  color: #f46869;
+}
+
+.change-test-sub {
+  width: 120px;
+  background-color: #dadeff;
+  border-radius: 10px;
+  padding: 0.5rem;
+  text-align: center;
+  cursor: pointer;
+}
+
+.change-test-sub p {
+  font-size: 0.8rem;
+  font-weight: bold;
+  color: var(--darkGrey);
+}
+
+.change-test-sub .subname {
+  color: #859bff;
+}

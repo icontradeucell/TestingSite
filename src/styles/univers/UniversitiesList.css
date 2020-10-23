@@ -1,0 +1,32 @@
+.universities-list {
+  display: grid;
+  justify-content: space-between;
+  grid-gap: 30px;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 550px));
+  /* grid-template-rows: auto auto auto; */
+  /* border: 2px solid red; */
+}
+
+.univer-list-item {
+  width: 100%;
+  position: relative;
+  height: 350px;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.univer-list-item .showcase-text {
+  padding: 1rem 2rem;
+  background-color: rgba(0, 0, 0, 0.808);
+  color: #fff;
+  width: 70%;
+  height: 70px;
+  position: absolute;
+  left: 0;
+  bottom: 30px;
+}
+
+.univer-list-item .univerName {
+  font-size: 0.9rem;
+}

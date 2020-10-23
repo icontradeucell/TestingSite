@@ -3,12 +3,27 @@
   "version": "0.1.0",
   "private": true,
   "dependencies": {
+    "@react-pdf/renderer": "^1.6.11",
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "antd": "^4.6.6",
+    "axios": "^0.20.0",
+    "framer-motion": "^2.7.7",
     "react": "^16.13.1",
+    "react-component-countdown-timer": "^0.1.8",
+    "react-countdown": "^2.2.2",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.3"
+    "react-file-reader": "^1.1.4",
+    "react-multi-carousel": "^2.5.5",
+    "react-router-dom": "^5.2.0",
+    "react-router-transition": "^2.0.0",
+    "react-scripts": "3.4.3",
+    "react-slick": "^0.27.11",
+    "redux": "^4.0.5",
+    "slick-carousel": "^1.8.1",
+    "victory": "^35.2.0",
+    "video-react": "^0.14.1"
   },
   "scripts": {
     "start": "react-scripts start",
